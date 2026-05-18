@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: #020617;
+  color: #f8fafc;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 48px 20px;
+  background:
+    radial-gradient(circle at top left, rgba(34, 211, 238, 0.12), transparent 35%),
+    radial-gradient(circle at top right, rgba(59, 130, 246, 0.12), transparent 35%),
+    #020617;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.badge {
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid rgba(34, 211, 238, 0.35);
+  background: rgba(34, 211, 238, 0.08);
+  color: #22d3ee;
+  border-radius: 999px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.1;
+  margin: 0 0 16px;
+}
+
+.subtitle {
+  color: #cbd5e1;
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 760px;
+  margin-bottom: 32px;
+}
+
+.card {
+  background: rgba(15, 23, 42, 0.95);
+  border: 1px solid #1e293b;
+  border-radius: 20px;
+  padding: 28px;
+  margin-bottom: 24px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin: 12px 0 16px;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  background: #020617;
+  color: #f8fafc;
+  font-size: 15px;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 13px 20px;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.message {
+  color: #22d3ee;
+  margin-top: 16px;
+}
+
+.answer {
+  margin-top: 24px;
+  padding: 20px;
+  background: #020617;
+  border: 1px solid #334155;
+  border-radius: 16px;
+}
+
+h1,
+h2,
+h3 {
+  color: #f8fafc;
+}
+
+.answer h3 {
+  margin-top: 0;
+  color: #22d3ee;
+}
+
+.answer p {
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+.context-box {
+  margin-top: 24px;
+  padding: 20px;
+  background: #020617;
+  border: 1px solid #334155;
+  border-radius: 16px;
+}
+
+.context-box h3 {
+  margin-top: 0;
+  color: #22d3ee;
+}
+
+.context-box p {
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.context-box pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background: rgba(15, 23, 42, 0.95);
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 16px;
+  color: #cbd5e1;
+  font-size: 14px;
+  line-height: 1.7;
+  max-height: 280px;
+  overflow-y: auto;
+}
